@@ -8,13 +8,16 @@ Entiy > util > Service > dto > Serviceimp > repository>  Controller
 ### Data flow when API called
 INFLOW-->
         API(dto) > Controller(dto as requestbody) > Service(dto) > Serviceimp(dto) > TrainIdGenerator > repsitory (dto)
+                                                                                                                OUTFLOW-->
+        repository(Train) > Serviceimp(Train) > Service(Train) > Controller(Train as response entity) > API (Train)
 
-                                                                                                                   <---OUTFLOW
-        API (Train) < Controller(Train as response entity) < Service(Train) < Serviceimp(Train) < repository(Train)
 
 ## Rest End Points (APIs)
 
-1. Create Train (ADMIN)
+1. Create Train (ADMIN) - admin need to give required JSON except TUID
+2. Update Train (ADMIN) - admin can updater any particular data of Train else can give empty string
+
+
 
 ## Database Entity
 
