@@ -6,6 +6,8 @@ import com.dummyirctc.trainschedule.entity.Train;
 public interface TrainService {
 	
 	Train createTrain(CreateTraindto dto);
+
+	Train updateTrain(Train train);
 	
 	
 }

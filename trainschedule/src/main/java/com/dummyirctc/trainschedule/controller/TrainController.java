@@ -26,4 +26,10 @@ public class TrainController {
 	}
 	
 	
+	@PostMapping("/updatetrain")
+	public ResponseEntity<?> updateTrain(@RequestBody Train train ){
+		Train updatedTrain = service.updateTrain(train);
+		return ResponseEntity.status(HttpStatus.ACCEPTED).body(updatedTrain);
+	}
+	
 }
