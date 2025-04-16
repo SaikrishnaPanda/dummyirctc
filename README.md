@@ -1,4 +1,3 @@
-Sure, I've made some corrections to the grammar and formatting for you:
 
 # dummyirctc
 This project is to prepare a dummy IRCTC which provides services such as Train Schedule Check, Ticket Booking, PNR Status Check, Catering Order, and Delivery Status Check.
@@ -43,4 +42,4 @@ This project is to prepare a dummy IRCTC which provides services such as Train S
 1. Users can check the ordered food delivery status (Accepted, Preparing, On the Way, Delivered, Canceled).
 2. Users can cancel the ordered food.
 
-Feel free to ask if you need any more help!
+
